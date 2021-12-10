@@ -7,10 +7,10 @@ Every solution reads input file as is in the AoC website. Every solution also pr
 | Day 1 | 138 | 0.05s | ✅ | ✅ |
 | Day 2 | 148 | 0.05s | ✅ | ✅ |
 | Day 3 | 303 | 0.06s | ✅ | ✅ |
-| Day 4 | 360 | 0.13s | ✅ | ✅ |
-| Day 5 | 297 | 0.34s | ✅ | ✅ |
+| Day 4 | 360 | 0.14s | ✅ | ✅ |
+| Day 5 | 297 | 0.35s | ✅ | ✅ |
 | Day 6 | 144 | 0.05s | ✅ | ✅ |
-| Day 7 | 175 | 0.38s | ✅ | ✅ |
-| Day 8 | 599 | 0.09s | ✅ | ✅ |
-| Day 9 | 422 | 0.18s | ✅ | ✅ |
-| Day 10 | 339 | 0.05s | ✅ | ✅ |
+| Day 7 | 175 | 0.39s | ✅ | ✅ |
+| Day 8 | 599 | 0.12s | ✅ | ✅ |
+| Day 9 | 422 | 0.19s | ✅ | ✅ |
+| Day 10 | 285 | 0.15s | ✅ | ✅ |
