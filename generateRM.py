@@ -10,7 +10,7 @@ content = [
 ]
 
 dirs = [f for f in os.listdir('.') if os.path.isdir(f) and f[0] != '.']
-dirs.sort()
+dirs.sort(key=lambda s: int(s.replace('aoc','')))
 
 content.append('| Day | Chars | Time | #1 | #2 |')
 content.append('| --- | --- | --- | --- | --- |')
