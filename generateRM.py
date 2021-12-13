@@ -5,7 +5,7 @@ import timeit
 content = [
   '# 🎄 Advent of Code 2021 🎄',
   'Solutions for [Advent of Code](https://adventofcode.com/2021) 2021 written in python3. My objective this year is to [code golf](https://en.wikipedia.org/wiki/Code_golf) solutions that are somewhat fast.',
-  'Every solution reads input file as is in the AoC website. Every solution also prints solutions to both of the days problems and nothing else.',
+  'Every solution reads input file as it is in the AoC website. Every solution also prints solutions to both of the days problems and nothing else.',
   '## Solution info for days'
 ]
 
