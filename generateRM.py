@@ -11,10 +11,10 @@ content = [
 
 dirs = [f for f in os.listdir('.') if os.path.isdir(f) and f[0] != '.']
 dirs.sort(key=lambda s: int(s.replace('aoc','')))
-
-content.append('| Day | Chars | Time | #1 | #2 |')
-content.append('| --- | --- | --- | --- | --- |')
-for dir in dirs:
+emojis = ['👼','🎅','🤶','🧑‍🎄','🧝','🧝‍♂️','🧝‍♀️','👪','🦌','🍪','🥛','🍷','🍴','⛪','🌟','❄️','☃️','⛄','🔥','🎄','🎁','🧦','🔔','🎶','🕯️','🛐','✝️']
+content.append('| 🎄 | Day | Chars | Time | #1 | #2 |')
+content.append('| --- | --- | --- | --- | --- | --- |')
+for i,dir in enumerate(dirs):
   fileName = dir + '/' + dir + '.py'
   lengthOfSolution = str(sum([ len(l) for l in open(fileName) if len(l) != 1 and l[0] != '#']) - 1)
   os.chdir(dir)
@@ -22,7 +22,7 @@ for dir in dirs:
   subprocess.call(['python3', dir+'.py'])
   time = '{:.2f}s'.format(timeit.default_timer() - start)
   os.chdir('..')
-  content.append(f'| [{dir.replace("aoc", "Day ").capitalize()}]({fileName}) | {lengthOfSolution} | {time} | ✅ | ✅ |')
+  content.append(f'| [{emojis[i]}](https://adventofcode.com/2021/day/{dir.replace("aoc","")}) | [{dir.replace("aoc", "Day ").capitalize()}]({fileName}) | {lengthOfSolution} | {time} | ✅ | ✅ |')
 
 with open('README.md', 'w') as file:
     file.write('\n'.join(content))
