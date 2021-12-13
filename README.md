@@ -4,16 +4,16 @@ Every solution reads input file as is in the AoC website. Every solution also pr
 ## Solution info for days
 | Day | Chars | Time | #1 | #2 |
 | --- | --- | --- | --- | --- |
-| Day 1 | 138 | 0.06s | ✅ | ✅ |
-| Day 2 | 148 | 0.06s | ✅ | ✅ |
-| Day 3 | 303 | 0.07s | ✅ | ✅ |
-| Day 4 | 360 | 0.14s | ✅ | ✅ |
-| Day 5 | 297 | 0.64s | ✅ | ✅ |
-| Day 6 | 144 | 0.08s | ✅ | ✅ |
-| Day 7 | 175 | 0.44s | ✅ | ✅ |
-| Day 8 | 599 | 0.13s | ✅ | ✅ |
-| Day 9 | 422 | 0.24s | ✅ | ✅ |
-| Day 10 | 285 | 0.21s | ✅ | ✅ |
-| Day 11 | 370 | 0.15s | ✅ | ✅ |
-| Day 12 | 387 | 2.84s | ✅ | ✅ |
-| Day 13 | 308 | 0.12s | ✅ | ✅ |
+| [Day 1](aoc1/aoc1.py) | 138 | 0.05s | ✅ | ✅ |
+| [Day 2](aoc2/aoc2.py) | 148 | 0.05s | ✅ | ✅ |
+| [Day 3](aoc3/aoc3.py) | 303 | 0.06s | ✅ | ✅ |
+| [Day 4](aoc4/aoc4.py) | 360 | 0.13s | ✅ | ✅ |
+| [Day 5](aoc5/aoc5.py) | 297 | 0.36s | ✅ | ✅ |
+| [Day 6](aoc6/aoc6.py) | 144 | 0.05s | ✅ | ✅ |
+| [Day 7](aoc7/aoc7.py) | 175 | 0.38s | ✅ | ✅ |
+| [Day 8](aoc8/aoc8.py) | 599 | 0.08s | ✅ | ✅ |
+| [Day 9](aoc9/aoc9.py) | 422 | 0.18s | ✅ | ✅ |
+| [Day 10](aoc10/aoc10.py) | 285 | 0.15s | ✅ | ✅ |
+| [Day 11](aoc11/aoc11.py) | 370 | 0.11s | ✅ | ✅ |
+| [Day 12](aoc12/aoc12.py) | 387 | 2.76s | ✅ | ✅ |
+| [Day 13](aoc13/aoc13.py) | 308 | 0.10s | ✅ | ✅ |

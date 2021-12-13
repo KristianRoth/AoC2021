@@ -22,7 +22,7 @@ for dir in dirs:
   subprocess.call(['python3', dir+'.py'])
   time = '{:.2f}s'.format(timeit.default_timer() - start)
   os.chdir('..')
-  content.append(f'| {dir.replace("aoc", "Day ").capitalize()} | {lengthOfSolution} | {time} | ✅ | ✅ |')
+  content.append(f'| [{dir.replace("aoc", "Day ").capitalize()}]({fileName}) | {lengthOfSolution} | {time} | ✅ | ✅ |')
 
 with open('README.md', 'w') as file:
     file.write('\n'.join(content))
