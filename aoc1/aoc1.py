@@ -1,3 +1,7 @@
-e,s=enumerate,sum
+# 1791
+# 1822
+
 m=[int(x)for x in open('a')]
-print(s([1 for i,z in e(m)if z>m[i-1]]),s([1 for i,z in e(m)if s(m[i:i+3])<s(m[i+1:i+4])]))
+for i in 1,3:print(sum([x<y for x,y in zip(m,m[i:])]))
+
+# 138 83
