@@ -1,7 +1,7 @@
 # 2740
 # 2959788056211
 
-w,e,*m=open('a').read().replace(' -> ','').split('\n')
+w,*m=open('a').read().replace(' -> ','').split()
 o={x[:2]:[]for x in m};c={x:x in w for x in o}
 for a,b,i in m:o[a+i]+=[a+b];o[i+b]+=[a+b]
 def T(c,t):
@@ -11,4 +11,4 @@ def T(c,t):
  print(max(r)-min(filter(int,r)))
 T(c,10);T(c,40)
 
-# 570 600 593 547 536 505 497 541 539 453 441 362 354 324 320 323 321 320
+# 570 600 593 547 536 505 497 541 539 453 441 362 354 324 320 323 321 320 314
